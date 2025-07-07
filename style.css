@@ -235,3 +235,117 @@ header .navbar{
 .menu-section .menu-list .menu-item .text{
     font-size: 1.12rem;
 }
+
+/* testimonial section..... */
+
+.testimonials-section{
+    padding: 50px 0 100px;
+    background-color: rgb(255, 228, 232);
+}
+.testimonials-section .testimonial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    text-align: center;
+}
+.testimonials-section .testimonial .user-image{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.testimonials-section .testimonial .name{
+    margin-bottom: 16px;
+    font-size: 1.12rem;
+}
+.testimonials-section .testimonial  .feedback{
+    line-height: 25px;
+}
+
+/* gallery section..... */
+
+.gallery-section{
+    padding: 50px 0 100px ;
+}
+.gallery-section .gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-left: 50px ;
+     margin-right: 50px ;
+   
+}
+.gallery-section .gallery-list .gallery-item{
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(100% / 3 - 32px );
+}
+.gallery-section .gallery-item .galler-image{
+    height: 100%;
+    width : 100%;
+    cursor: zoom-in;
+    transition: 0.3s ease;
+}
+.gallery-section .gallery-item:hover .galler-image{
+    transform: scale(1.3);
+}
+
+/* contact us............ */
+
+.contact-section{
+    padding: 50px 0 100px;
+    background:rgb(253, 225, 229);
+}
+.contact-section .section-contant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+    margin: 60px;
+}
+.contact-section .contact-info-list .contact-info{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    align-items: center;
+}
+.contact-section .contact-info-list .contact-info i{
+    font-size: 1.5rem;
+}
+.contact-section .contact-form .input-form{
+    width: 100%;
+    height: 50px;
+    padding: 0 12px ;
+    outline: none;
+    margin-bottom: 16px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+
+}
+.contact-section .contact-form .input-form:focus{
+    border-color: #f3961c;
+}
+.contact-section .contact-form textarea .input-form{
+    height: 100px;
+    padding: 12px;
+    resize: vertical;
+}
+.contact-section .contact-form .submit-button{
+    padding: 10px 26px ;
+    margin-top: 10px;
+    background: #3b141c;
+    color: white;
+    font-weight: 500;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    border: 1px solid #3b141c;
+    transition: 0.3s ease;
+}
+.contact-section .contact-form .submit-button:hover{
+    background: transparent;
+    color: #f3961c;
+}
